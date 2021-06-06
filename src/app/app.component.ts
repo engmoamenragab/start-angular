@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
+import * as AOS from "aos";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = 'start-angular';
+  title = "start-angular";
+  constructor() {
+    AOS.init({ duration: 1200 });
+  }
 }

@@ -1,0 +1,12 @@
+.about {
+  padding: 150px 0;
+  background-color: #1abc9c;
+}
+.divider .left-line,
+.divider .right-line {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.divider i {
+  color: #ffffff;
+}

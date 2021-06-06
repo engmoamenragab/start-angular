@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+.sec__hd h2 {
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.divider .left-line,
+.divider .right-line {
+  display: inline-flex;
+  width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+}
+.divider i {
+  font-size: 35px;
+}

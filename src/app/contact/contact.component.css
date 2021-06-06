@@ -1,0 +1,37 @@
+.contact {
+  padding: 150px 0;
+}
+.divider .left-line,
+.divider .right-line {
+  background-color: #2c3e50;
+  border-color: #2c3e50;
+}
+.divider i {
+  color: #2c3e50;
+}
+.form-group {
+  border-bottom: 1px solid #e9ecef;
+}
+.form-control {
+  font-size: 1.5em;
+  position: relative;
+  z-index: 1;
+  padding-right: 0;
+  padding-left: 0;
+  resize: none;
+  border: none;
+  border-radius: 0;
+  background: none;
+  box-shadow: none !important;
+}
+.form__btn {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  background-color: #1abc9c;
+  border-color: #1abc9c;
+  transition: all 0.2s ease-in-out;
+}
+.form__btn:hover {
+  background-color: #159a80;
+  border-color: #148f77;
+}

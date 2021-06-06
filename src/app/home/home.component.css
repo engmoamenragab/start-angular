@@ -1,0 +1,26 @@
+.home {
+  background-color: #1abc9c;
+  height: 100vh;
+}
+.home__content__avatar {
+  width: 15rem;
+}
+.home__content__title {
+  color: #ffffff;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home__content__p {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.divider .left-line,
+.divider .right-line {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+.divider i {
+  color: #ffffff;
+}
